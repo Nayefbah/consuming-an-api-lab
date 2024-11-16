@@ -1,12 +1,12 @@
-<!-- views/weather/show.ejs -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheet/style.css" />
     <title>Weather Data</title>
   </head>
-  <body>
+  <body class="weather">
     <h1>Weather Details for <%= data.name %>, <%= data.sys.country %></h1>
     <ul>
       <li>Temperature: <%= data.main.temp %>°F</li>
